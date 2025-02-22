@@ -150,7 +150,7 @@ formElement.addEventListener('submit', function (e) {
     errorElement.style.color = 'red';
     errorElement.innerText = messages.join('\n');
   } else {
-    emailjs.send('service_jsakb7r', 'template_uwd45qp', {
+    emailjs.send('service_tunmonx', 'template_9f9nue7', {
       name: nameElement.value,
       comment: commentElement.value,
     });
